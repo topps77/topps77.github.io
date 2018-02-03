@@ -1,0 +1,201 @@
+#wrapper {
+    background-color: grey;
+    float: inherit;
+    width: 900px;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    float: left;
+    width: 880px;
+    height: 70px;
+    background-color:grey;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+nav {
+    float: left;
+    width: 880px;
+    height: 30px;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 15px 0px 3px 30px;
+
+}
+
+nav a {
+    color: white;   
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;   
+    text-decoration: underline;
+}
+
+a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+article {
+    float: left;
+    width: 550px;
+    height: 300px;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: aliceblue;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+section {
+
+}
+
+aside {
+    float: left;
+    width: 300px;
+    height:320px;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: aliceblue;
+    padding: 10px 5px 10px 5px;
+}
+
+footer {
+   background-color: coral;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+/* contact form */
+
+.contact_form h2, .contact_form label, {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.contact_form ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.contact_form li {
+    padding: 5px;
+    border-bottom: 1px silver;
+    position: relative;
+}
+
+.required_notificaton, .form hint {
+    font-size: 10px;
+}
+
+*:focus {
+    outline:none;
+}
+
+.contact_form label {
+    width: 150px;
+    display: inline-block;
+}
+
+.contact_form input {
+    width:  220px;
+    height:20px;
+}
+
+.contact_form textarea {
+    width: 300px;
+}
+
+.contact_form button {
+    margin-left: 150px;
+}
+
+.contact_form input, .contact_form textarea {
+    border: 1px solid grey
+    box-shadow: 0px 0px 3 px gold, 0px 10px 15px gold inset;
+    border-radius: 3px;
+    padding-right: 20px;
+    -moz-transition: padding .2s;
+    -webkit-transition: padding .2s;
+    -o-transition: padding .2s;
+    transition: padding .2s;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background:#ffffff;
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3px #aaa;
+    padding-right: 70px;
+}
+
+.contact_form input:required, .contact_form textarea:required {
+    background: #fff url('../images/red_asterisk.png') no-repeat 98% center;
+}
+
+.contact_form input:valid, .contact_form textarea:valid {
+    background: #fff url('../images/valid.png') no-repeat 98% center;
+    box-shadow: 0 0 5px rgb(6, 197, 6);
+    border-color: greenyellow;
+}
+
+.contact_form input:invalid, .contact_form textarea:invalid {
+    background: #fff url('../images/invalid.png') no-repeat 98% center;
+    box-shadow: 0 0 5px rgb(206, 6, 6);
+    border-color: red;
+}
+
+button.submit {
+    background-color: lightblue;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #d49203;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+button.submit:hover {
+    cursor: pointer;
+}
+
+button.submit:active {
+    background-color: rgb(190, 173, 230);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #af0c79;
+    color: rgb(187, 11, 134);
+    font-weight: bold;
+}
+
+.form_hint {
+    background: rgb(119, 6, 211);
+    border-radius:3px 3px 3px 3px;
+    color: rgb(47, 0, 255);
+    margin-left: 4px;
+    padding: 1px 2px;
+    position: absolute;
+    display: inline;
+}

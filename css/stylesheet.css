@@ -1,0 +1,53 @@
+header {
+padding: 20px;
+text-align: center;
+background: yellow;
+}
+
+nav {
+text-align: center;
+background: cyan blue;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block; /*this will enable all the text to stay in one place*/
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+article {
+padding: 5px;
+border:5px dotted green;
+background: yellow; /*background can enable you to set images*/
+}
+
+aside {
+margin-top:50px;
+background-color: aqua;
+text-align: center;
+font-style: italic;
+border:5px double green;
+}
+
+section {
+padding:5px;
+margin-top: 10px;
+border: 5px dotted red;
+background: light coral;
+color:white /*change the font to white*/
+}
+
+footer {
+    
+}

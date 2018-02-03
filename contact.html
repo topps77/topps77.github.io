@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML web page</title>
+
+        <link rel="stylesheet" href="./css/style01.css" >
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>My COMworks Pte Ltd</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Experience</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Beliefs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>
+            </nav>
+
+            <article>
+            <section>
+            <form class ="contact_form" action="#" method="post" name="contact_form">
+                <ul>
+                    <li>
+                        <h2>Contact Us </h2>
+                        <span class="required_notificaton">* Denote required fields</span>
+                    </li>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter your Name" required />
+                        <span class="form-hint">Enter proper name i.e Mike</span>
+                    </li>
+                    <li>
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="Enter your Email" required />
+                            <span class="form hint">i.e. mike@gmail.com</span>
+                    </li>
+                    <li>
+                            <label for="url">Website</label>
+                            <input type="url" placeholder="https://example.com" required pattern="(http:|https)://.+" />
+                            <span class="form-hint">Enter proper url i.e http</span>
+                    </li>
+                    <li>
+                        <label for="comments">Comments</label>
+                        <textarea name="message" cols="50" rows="10"></textarea>
+                    </li>
+                    <li>
+                        <button class="submit" type="submit">Submit Form</button>
+                    </li>
+                </ul>
+            </form>         
+        
+            </section>
+           
+            </article>
+
+            <aside>
+                <h3>Mobile app development services</h3>
+                <ol type="a">
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ol>
+                <br>
+                <p>
+                    COMworks Pte Ltd provides services in mobile app development
+                </p>
+
+                <p>
+                    If you are seeking mobile app development at reasonable rates, call us
+                </p>
+
+                <p>
+                    We will provide a good app <br> 
+                    We will present your app to you in an interactive manner <br>
+                    <a href="#">Contact Us</a> with your requirements now
+                </p>
+            </aside>
+
+            <footer>
+                Copyright&copy; COMworks Pte Ltd
+            </footer>
+        </div>
+    </body>
+</html>
